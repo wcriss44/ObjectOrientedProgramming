@@ -43,14 +43,12 @@ public class Game {
     }
     public static void printInventoryitems(){
         int i = 0;
-        //System.out.println("Item Name:\t\t\t\t\t\tItem Category:\t\t\t\t\tQuantity:");
         for (InventoryItem currentInventory: inventory){
             i++;
             System.out.printf("\t** item %s **", i);
             System.out.printf("\nItem name: %s", currentInventory.getName());
             System.out.printf("\nItem category: %s", currentInventory.getCategory());
             System.out.printf("\nItem quantity: %s\n\n", currentInventory.getQuantity());
-            //System.out.printf("%s)  %s\t\t\t\t\t%s\t\t\t%s\n", i, currentInventory.getName(), currentInventory.getCategory(), currentInventory.getQuantity());
         }
     }
     public static int randomRange(int min, int max){

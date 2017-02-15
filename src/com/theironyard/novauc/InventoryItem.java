@@ -72,25 +72,25 @@ public class InventoryItem {
                 case 2:
                     System.out.println("You found some Food!");
                     foundItem = itemGenerator("food");
-                    System.out.printf("You found a %s!", itemGenerator("food"));
+                    System.out.printf("You found a %s!", foundItem);
                     category = "Food";
                     break;
                 case 3:
                     System.out.println("You found some Drink!");
                     foundItem = itemGenerator("drink");
-                    System.out.printf("You found a %s!", itemGenerator("drink"));
+                    System.out.printf("You found a %s!", foundItem);
                     category = "Drink";
                     break;
                 case 4:
                     System.out.println("You found a weapon!");
                     foundItem = itemGenerator("weapon");
-                    System.out.printf("You found a %s!", itemGenerator("weapon"));
+                    System.out.printf("You found a %s!", foundItem);
                     category = "Weapon";
                     break;
                 case 5:
                     System.out.println("You found a book!");
                     foundItem = itemGenerator("book");
-                    System.out.printf("You found a %s!", itemGenerator("book"));
+                    System.out.printf("You found a %s!", foundItem);
                     category = "Book";
                     break;
                 case 6:
